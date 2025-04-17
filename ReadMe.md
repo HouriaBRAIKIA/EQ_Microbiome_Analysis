@@ -56,6 +56,7 @@ pip install -Iv rpy2==3.4.2
 pip install pandas==1.5.3
 pip install numpy matplotlib seaborn scikit-learn shap scikit-bio
 
+---
 
 ⚠️ After installing rpy2, restart your Python kernel or runtime (important for Jupyter users).
 
@@ -76,6 +77,8 @@ These are required for normalization:
 
 edgeR: for TMM normalization
 
+---
+
 🧪 How to Use
 - Place your OTU tables and metadata in the Data/ folder.
 
@@ -90,6 +93,8 @@ edgeR: for TMM normalization
     * SHAP-based feature explanation
     * CCA multivariate analysis
 
+---
+
 🧠 Technologies Used
     * Python
         * pandas, numpy, scikit-learn, matplotlib, seaborn
@@ -97,6 +102,7 @@ edgeR: for TMM normalization
     * R (via rpy2)
         * edgeR, metagenomeSeq for normalization techniques
 
+---
 
 🤝 Contributions
 Contributions are welcome!
