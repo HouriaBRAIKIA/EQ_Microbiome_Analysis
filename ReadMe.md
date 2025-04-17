@@ -55,7 +55,7 @@ project/
 pip install -Iv rpy2==3.4.2
 pip install pandas==1.5.3
 pip install numpy matplotlib seaborn scikit-learn shap scikit-bio
-
+```
 ---
 
 ⚠️ After installing rpy2, restart your Python kernel or runtime (important for Jupyter users).
