@@ -63,6 +63,7 @@ pip install numpy matplotlib seaborn scikit-learn shap scikit-bio
 📦 R packages (via rpy2)
 In your Python code or notebook, execute:
 
+```bash
 import rpy2.robjects as ro
 ro.r('''
 if (!require("BiocManager", quietly = TRUE))
@@ -71,7 +72,7 @@ if (!require("BiocManager", quietly = TRUE))
 BiocManager::install("edgeR")
 BiocManager::install("metagenomeSeq")
 ''')
-
+```
 
 These are required for normalization:
 
